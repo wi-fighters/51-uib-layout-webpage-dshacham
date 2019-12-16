@@ -63,4 +63,18 @@ li {
     margin-bottom: 2rem;
 }
 
+.prev-next {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
 
+.next {
+    text-align: right;
+    margin-top: 2rem;
+}
+
+div>a:link, div>a:visited, div>a:hover, div>a:active {
+    text-decoration: overline underline;
+    font-size: 0.8rem;
+}
