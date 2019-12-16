@@ -78,3 +78,31 @@ div>a:link, div>a:visited, div>a:hover, div>a:active {
     text-decoration: overline underline;
     font-size: 0.8rem;
 }
+
+@media screen and (max-width: 800px) {
+    .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+        margin-top: 0.5rem; 
+    }
+
+    li {
+        margin: 1rem 0.5rem 0;
+    }
+    
+    .menu-title {
+        font-size: 1.5rem;
+        margin: 0.5rem;
+    }
+
+    .text-box {
+        width: 100%;
+        margin: -5rem 0.4rem 0;
+    }
+}
